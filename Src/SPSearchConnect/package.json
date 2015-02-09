@@ -2,15 +2,37 @@
   "name": "SPSearchConnect",
   "version": "0.0.0",
   "description": "SPSearchConnect",
-  "main": "app.js",
-  "author": {
-    "name": "arjunam",
-    "email": ""
-  },
+  "main": "index.js",
+  "author": "arjunam",
   "devDependencies": {
     "chai": "^1.10.0",
     "grunt": "^0.4.5",
     "grunt-mocha": "^0.4.11",
     "mocha": "^2.1.0"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "chai": "^1.10.0",
+    "grunt-mocha": "^0.4.11",
+    "grunt": "^0.4.5"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arjuna-m/SPSearchConnect.git"
+  },
+  "keywords": [
+    "SharePoint",
+    "Search",
+    "Nodejs"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arjuna-m/SPSearchConnect/issues"
+  },
+  "homepage": "https://github.com/arjuna-m/SPSearchConnect"
 }
