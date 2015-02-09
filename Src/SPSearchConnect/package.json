@@ -1,0 +1,10 @@
+{
+  "name": "SPSearchConnect",
+  "version": "0.0.0",
+  "description": "SPSearchConnect",
+  "main": "app.js",
+  "author": {
+    "name": "arjunam",
+    "email": ""
+  }
+}
