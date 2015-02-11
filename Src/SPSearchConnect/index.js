@@ -1,6 +1,5 @@
 ﻿module.exports = function () {
-    this.performSearch(searchKey)
-    {
+    this.performSearch = function (searchKey) {
         return searchKey;
     }
 }
